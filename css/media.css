@@ -1,0 +1,123 @@
+/* Медиа запросы через ChatGPT */
+@media screen and (max-width: 992px) {
+    header {
+        max-width: 100%;
+    }
+    .header_container {
+        max-width: 100%;
+        padding: 0 20px; /* Добавляем отступы для контейнера */
+    }
+    .header_nav {
+        flex-direction: column; /* Перестраиваем на колонку */
+        align-items: flex-start;
+    }
+    .nav_logo {
+        margin: 0 auto;
+    }
+    .nav_list {
+        flex-direction: column; /* Перестраиваем на колонку */
+        width: 100%; /* Ширина на всю ширину */
+    }
+    .nav_list li {
+        width: 100%; /* Ширина на всю ширину */
+    }
+    .nav_list li a {
+        display: block;
+        width: 100%;
+        padding: 15px 10px; /* Увеличиваем отступы */
+        font-size: 16px; /* Уменьшаем размер шрифта */
+        text-align: center; /* Выравнивание текста по центру */
+    }
+    .header_title {
+        margin: 30px auto;
+        text-align: center; /* Выравнивание текста по центру */
+    }
+    h1 {
+        font-size: 40px; /* Уменьшаем размер шрифта заголовка */
+        line-height: 48px; /* Соответствующая высота строки */
+    }
+    .title_discription {
+        font-size: 16px; /* Уменьшаем размер шрифта */
+        line-height: 24px; /* Соответствующая высота строки */
+        max-width: 100%; /* Ширина на всю ширину */
+    }
+    .our_services {
+        text-align: center;
+        width: 100%; /* Ширина на всю ширину */
+        padding-left: 0; /* Убираем левый отступ */
+    }
+    
+    .title_our_resvices {
+        margin: 30px 0 50px 0; /* Уменьшаем отступы сверху и снизу */
+        font-size: 40px; /* Уменьшаем размер шрифта заголовка */
+        line-height: 50px; /* Соответствующая высота строки */
+    }
+    
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .item {
+        flex: 0 0 48%; /* Ширина каждого элемента - 48%, чтобы разместить два элемента в строке */
+        max-width: 48%;
+    }
+    
+    .item img {
+        max-width: 100px; /* Ограничиваем максимальную ширину изображений */
+    }
+    
+    .item_text {
+        font-size: 16px; /* Уменьшаем размер шрифта */
+        line-height: 24px; /* Соответствующая высота строки */
+        max-width: 100%; /* Ширина на всю ширину */
+    }
+    .story {
+        height: auto; /* Устанавливаем автоматическую высоту */
+        padding: 20px; /* Добавляем отступы */
+    }
+    .story_inner {
+        flex-direction: column; /* Перестраиваем на колонку */
+        align-items: center; /* Выравнивание по центру */
+        text-align: center; /* Выравнивание текста по центру */
+    }
+    .story_text {
+        max-width: 100%; /* Ширина на всю ширину */
+        margin-bottom: 20px; /* Отступ снизу */
+    }
+    .story_button {
+        width: 100%; /* Ширина на всю ширину */
+        max-width: 270px; /* Максимальная ширина */
+    }
+    .pricing {
+        width: 100%; /* Ширина на всю ширину */
+        padding: 0;
+    }
+    .pricing_title {
+        font-size: 40px; /* Уменьшаем размер шрифта */
+        padding: 40px 0; /* Уменьшаем отступы */
+    }
+    .card {
+        flex-direction: column; /* Перестраиваем карточки на колонку */
+        align-items: center; /* Выравнивание по центру */
+    }
+    .pricing_item {
+        width: 100%; /* Ширина на всю ширину */
+        max-width: 320px; /* Максимальная ширина */
+        margin-bottom: 20px; /* Отступ снизу */
+    }
+    .pricing_uptext {
+        font-size: 40px; /* Уменьшаем размер шрифта */
+        padding: 20px; /* Уменьшаем отступы */
+    }
+    .pricing_text {
+        font-size: 18px; /* Уменьшаем размер шрифта */
+    }
+    .pricing_button {
+        width: 100%; /* Ширина на всю ширину */
+        max-width: 205px; /* Максимальная ширина */
+        font-size: 18px; /* Уменьшаем размер шрифта */
+    }
+
+}
